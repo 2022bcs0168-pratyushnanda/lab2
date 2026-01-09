@@ -6,10 +6,10 @@ def get_model():
     CHANGE MODEL HERE FOR EACH EXPERIMENT
     """
     # Experiment 1: Linear Regression
-    return LinearRegression()
+    # return LinearRegression()
 
     # Experiment 2: Ridge Regression
-    # return Ridge(alpha=1.0)
+    return Ridge(alpha=1.0)
 
     # Example 3: Random Forest
     # return RandomForestRegressor(
