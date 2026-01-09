@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Preprocessing (CHANGE FLAG IF NEEDED)
-X_train, X_test = preprocess(X_train, X_test, scale=True)
+X_train, X_test = preprocess(X_train, X_test, scale=False)
 
 # Model
 model = get_model()
